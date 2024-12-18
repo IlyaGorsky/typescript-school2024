@@ -4,10 +4,11 @@
  *               из которых ограничивает элемент массива с аналогичным индексом.
  */
 let userInfo: [string, number] = ["Ilya", 26];
-// let userName = userInfo[0];
-// let userAge = userInfo[1];
+let userName = userInfo[0];
+let userAge = userInfo[1];
 
-// userInfo.push(121);
+userInfo.push(121);
+// console.log(userInfo[3])
 
 type PersonName = string;
 type PersonAge = number;
@@ -15,12 +16,12 @@ type PersonZipCode = number;
 type Persons = [PersonName, PersonAge];
 
 let persons: [PersonName, PersonAge][] = [];
-// persons.push(["Ilya", '2']);
+// persons.push(["Ilya", 2]);
 
 // mixedTuple.
-let extendPersons: [...Persons, PersonZipCode?, { lat?: number; lng: number }?][] = [];
+let extendPersons: [...Persons, PersonZipCode?, { lat: number; lng: number }?][] = [];
 
-extendPersons.push([...userInfo, 123, { lng: 123 }]);
+extendPersons.push([...userInfo, 123, { lng: 123, lat: 123}]);
 
 // Кортеж также поддерживает spread оператор
 function f(...rest: [number, string, boolean?]): void {

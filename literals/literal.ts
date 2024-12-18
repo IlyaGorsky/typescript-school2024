@@ -19,9 +19,11 @@ required(false);
  * @name String
  * @description п
  */
-function animate(easing: "in" | "out" | "easeInOut" | "lienar") {}
+// function animate(easing: "in" | "out" | "easeInOut" | "lienar") {
+//   switch (easing) { }
+// }
 
-animate("in");
+// animate("in");
 // animate("ease");
 // animate("easeIn");
 
@@ -45,11 +47,11 @@ animate("in");
 }
 
 {
-  type ValidPortValue = 80 | 42;
+  // type ValidPortValue = 80 | 42;
   const port80: number = 80;
   const port42: number = 42;
 
-  const start = (port: ValidPortValue) => {
+  const start = (port: 80 | 42) => {
     // блок if сообщит об ошибке только во время выполнения
     if (port !== port80 && port !== port42) {
       throw new Error(`port #${port} is not valid.`);

@@ -13,17 +13,19 @@ simpleObject = {};
 
 let student: { id: number; firstName: string; lastName: string; phone?: string };
 
-// student = {
-//   id: 1,
-//   firstName: "Ilya",
-//   lastName: "Gorskiy",
-//   phone: "777 77 77",
-// };
+student = {
+  id: 1,
+  firstName: "Ilya",
+  lastName: "Gorskiy",
+    phone: "777 77 77",
+};
 
 let studentPhone: string;
 
-// if (student.phone) {
-//   studentPhone = student.phone;
-// }
+if (student.phone) {
+  studentPhone = student.phone;
+  console.log(studentPhone);
+}
 
-// let isObject: object = student;
+
+// let isObject: object = function () { }

@@ -36,9 +36,9 @@
 
 {
   let value: unknown;
-  value.foo.bar;
+  // value.foo.bar;
   typeof value === "number" && value.toFixed();
-  value();
-  new value();
-  value[0][1];
+  typeof value === 'function' && value();
+  // new value();
+  // value[0][1];
 }

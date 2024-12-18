@@ -6,19 +6,19 @@
  */
 enum Frameworks {
   Angular = "Angular", // 0
-  React, // 1
+  React // 1,
   Vue, // 2
   Svelte, // 3
 }
-console.log(Frameworks);
+// console.log(Frameworks);
 
 let currentFramework: string;
 let frameWorkId: number;
 
 // console.log(Frameworks.React)
-// currentFramework = Frameworks[Frameworks.React];
-// frameWorkId = Frameworks.React;
-// console.log(Frameworks[Frameworks.React]);
+currentFramework = Frameworks[Frameworks.React];
+frameWorkId = Frameworks.React;
+// console.log(currentFramework);
 
 // Числове значения
 enum Code {
@@ -27,6 +27,7 @@ enum Code {
 }
 
 // console.log(Code.Ok);
+// console.log(Code.BadRequest === 400);
 
 // Строковые значения
 enum FruitColors {
@@ -39,7 +40,7 @@ enum FruitColors {
 //   Red: '#ff0000',
 // }
 
-console.log(FruitColors);
+// console.log(FruitColors.Green);
 
 // Индексы
 enum Currency {
@@ -53,7 +54,7 @@ enum Currency {
 // console.log(Object.values(Currency));
 
 // let gbp: 4;
-// let gbp: 5;
+let gbp: 5;
 // gbp = Currency.RUR;
 
 // Псевдоним
@@ -77,6 +78,6 @@ enum ApprovalStatus {
   }
   let colorApple = Color.Apple;
 
+  console.log(colorApple);
   // console.log(Color);
-  console.log(Color);
 }

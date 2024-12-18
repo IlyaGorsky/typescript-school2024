@@ -24,6 +24,7 @@ type UserProfile = {
   fullName?: string;
 };
 
+
 type ErrorCode = {
   code: 400;
 };
@@ -64,6 +65,6 @@ function someResolever2(data: ResponseData) {
     z: 0,
   };
 
-  point2d = point3d;
+  // point2d = point3d;
   // point3d = point2d
 }

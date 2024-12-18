@@ -8,4 +8,4 @@ let NumberBigInt = 9007199254740991n; // не явное приведение т
 
 let ManyBigInt: BigInt = BigInt(Number.MAX_VALUE) + NumberBigInt;
 
-// console.log(ManyBigInt); // 9007199254740
+console.log(ManyBigInt); // 9007199254740

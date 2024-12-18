@@ -11,5 +11,5 @@ let analytics = {
 };
 let result: void = someFn();
 
-console.log(void 0);
-console.log(result);
+// console.log(void 0);
+// console.log(result);

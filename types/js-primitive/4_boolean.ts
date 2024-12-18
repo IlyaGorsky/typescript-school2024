@@ -7,4 +7,4 @@ let temp = 100;
 let isWarm: boolean = temp >= 100;
 let isHot = temp >= 50;
 
-// console.log(isHot);
+console.log(isHot);

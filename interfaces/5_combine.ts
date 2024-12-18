@@ -10,14 +10,14 @@ interface PenStroke {
 }
 
 
-interface Square extends ShapeColor, PenStroke {
+interface ISquare extends ShapeColor, PenStroke {
   sideLength: number;
 }
 
-let square: Square;
+let square: ISquare;
 
 square = {
   color: "blue",
   sideLength: 10,
-  penWidth: 5,
+  // penWidth: 5,
 };
