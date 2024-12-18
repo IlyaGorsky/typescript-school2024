@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "Ilya Gorsky",
   "license": "ISC",
-  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
+  "dependencies": {
+    "typescript": "5.7.2"
+  }
 }
